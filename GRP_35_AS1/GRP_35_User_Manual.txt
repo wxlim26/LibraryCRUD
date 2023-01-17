@@ -1,0 +1,14 @@
+1. Set up the database on MySQL workbench with CREATE_DATABASE.sql and set it as the default schema
+
+2. Run the following in the exact order:
+   1. CREATE_TABLE.sql
+   2. INSERT_MEMBERS.sql
+   3. INSERT_PUBLISHER.sql
+   4. INSERT_AUTHOR.sql
+   5. INSERT_BOOK.sql
+   6. INSERT_BOOKHASAUTHOR.sql 
+
+3. Open up the GRP_35_ALS.py python file.
+   1. Inside this python file, change all the “PlaceholderPassword” to your MySQL workbench password.
+
+4. Run the GRP_35_ALS.py python file to use the ALS
